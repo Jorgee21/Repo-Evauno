@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>recuperar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="Fondo">
+  <div class="ion-padding-vertical" >
+    <ion-card> 
+      <div>
+        <img src="/src/assets/otrologo.jpg">
+      </div>
+    </ion-card>
+
+    <ion-card  class="ion-text-center " >
+      <ion-card-title>
+
+        <ion-label class="headd>">
+          <h1>Recuperar Contraseña</h1>
+          <br>
+          <p>Ingrese su correo de Duoc para recuperar su cuenta</p>
+        </ion-label>
+        
+        <ion-item>  
+          <ion-label position="floating">Correo</ion-label>
+          <ion-input type="email"></ion-input>
+        </ion-item>
+
+        <ion-button [routerLink]="['/home']">Confirmar</ion-button >
+
+        <ion-button [routerLink]="['/home']">Volver</ion-button>
+
+      </ion-card-title>
+    </ion-card>  
+  </div>    
+</ion-content>
